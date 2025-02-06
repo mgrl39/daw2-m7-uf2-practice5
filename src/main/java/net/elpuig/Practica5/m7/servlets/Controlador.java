@@ -19,6 +19,8 @@ import java.util.Map;
 public class Controlador extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private PrintWriter out;
+	
+
 
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
